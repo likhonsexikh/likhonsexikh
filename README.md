@@ -15,8 +15,10 @@ Welcome to my GitHub profile! I’m passionate about **AI, automation, and web t
 - 🌱 Exploring **Node.js, GitHub Actions, and LLM integrations**.
 - 💬 Ask me about AI strategies, automation, or GitHub workflows.
 - 📫 Reach me on:
-  - **Telegram:** [t.me/likhonsheikh](https://t.me/likhonsheikh)
-  - **X (Twitter):** [x.com/likhonymous](https://x.com/likhonymous)
+  <p>
+    <a href="https://t.me/likhonsheikh" target="_blank"><img src="https://media.tenor.com/9F6z7QhUFlIAAAAC/happy-leap-day.gif" alt="Telegram" width="120"></a>
+    <a href="https://x.com/likhonymous" target="_blank"><img src="https://media.tenor.com/9lIAHxVzbQYAAAAi/phantonym-follow.gif" alt="Twitter" width="120"></a>
+  </p>
 
 ---
 
