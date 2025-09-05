@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "<!-- **likhonsexikh/likhonsexikh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likhonsexikh/likhonsexikh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/likhonsexikh/likhonsexikh/issues"
+  },
+  "homepage": "https://github.com/likhonsexikh/likhonsexikh#readme",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
