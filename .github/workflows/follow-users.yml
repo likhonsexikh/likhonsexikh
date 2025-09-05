@@ -1,29 +1,25 @@
-name: Auto Follow Users
+name: Safe Auto Follow
 
 on:
   schedule:
-    # Runs daily at 2:00 AM UTC
-    - cron: '0 2 * * *'
+    - cron: '*/5 * * * *' # every 5 minutes
   workflow_dispatch:
 
 jobs:
   follow:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
 
-      - name: Install dependencies
-        run: npm install
+      - run: npm install
 
       - name: Run follow script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }} # Safe, secret token
         run: node index.js
 
       - name: Commit and push if changed
